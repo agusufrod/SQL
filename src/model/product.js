@@ -7,15 +7,12 @@ var product = db.define(
     id: {
       type: Sequelize.INTEGER,
       primaryKey: true,
-      allowNull: false,
     },
     name: {
       type: Sequelize.STRING,
-      allowNull: false,
     },
     stock: {
       type: Sequelize.INTEGER,
-      allowNull: false,
     },
   },
   {
